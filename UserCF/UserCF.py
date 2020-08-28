@@ -58,7 +58,7 @@ def user_similarity(train):
                 item_users[item] = set()
             item_users[item].add(user)
 
-    # 计算用户间共同评论过的电影数量。相似度公式的分子
+    # 计算两个用户都评论过的电影数量。N(u)∩N(v),用户u评论过的电影和用户v评论过的电影的交集。相似度公式的分子
     C = {}      # 用户间共同评论过的电影数量
     N = {}      # 各用户评论过的电影数量
     for item, users in tqdm(item_users.items()):
