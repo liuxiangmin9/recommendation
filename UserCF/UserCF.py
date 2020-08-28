@@ -9,8 +9,10 @@ Created on Wed Aug 26 15:38:23 2020
 # 项亮《推荐系统实践》UserCF的实现
 # 使用小型MovieLens数据集,10万数据量
 
-# 选取k=80个最相似用户，推荐n=20个物品
-# precision=27%, recall=11%, coverage=3%, popularity=4.8
+# 选取k=10个最相似用户，推荐n=20个物品
+# precision=25%, recall=10%, coverage=10%, popularity=4.4
+# precision、recall和K不是正相关或负相关，需选取合适的K值。
+# K值越大，越倾向于推荐热门物品，发现长尾物品能力越低，覆盖率越低。
 # time: 74s
 
 import pandas as pd
@@ -206,7 +208,7 @@ if __name__ == "__main__":
     data = pd.read_csv(rating_file)
 
     # 设定K,n值
-    K = 80
+    K = 10
     n = 20
 
     # 划分训练集测试集
