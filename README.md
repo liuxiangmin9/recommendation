@@ -3,7 +3,7 @@
 正在努力更新中...
 
 #### 对MovieLens电影评分小型数据集做Top N推荐：
-0. 随机最热门的N=20个的precision
+0. 推荐最热门的N=20个的precision
 1. UserCF
 2. ItemCF
 
