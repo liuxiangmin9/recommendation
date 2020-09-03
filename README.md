@@ -8,6 +8,6 @@
 2. ItemCF，precision=26%, recall=10%, coverage=15%, popularity=4.3
 
 #### 对MovieLens电影评分小型数据集做评分预测：
-0. baseline--使用所有评分的均值做预测，MAE:0.83，这部分内容包含在LinearRegression_Rating.ipynb
+0. baseline--使用所有评分的均值做预测，MAE:0.83。这部分内容包含在LinearRegression_Rating.ipynb
 1. BiasSVD，MAE:0.68
 2. LinearRegression，MAE:0.61
