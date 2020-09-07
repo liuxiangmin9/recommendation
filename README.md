@@ -11,3 +11,6 @@
 0. baseline--使用所有评分的均值做预测，MAE:0.83。这部分内容包含在LinearRegression_Rating.ipynb
 1. BiasSVD，MAE:0.68
 2. LinearRegression，MAE:0.61
+
+#### 对criteo广告展示小型数据集做点击率预测
+1. gbdt+lr，binary_logloss:0.4783    
