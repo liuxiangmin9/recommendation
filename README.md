@@ -14,3 +14,6 @@
 
 #### 对criteo广告展示小型数据集做点击率预测
 1. gbdt+lr，binary_logloss:0.4783    
+
+#### 对Census数据中的收入做二分类
+1.Wide&Deep, accuracy: 0.8587
