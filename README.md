@@ -16,4 +16,5 @@
 1. gbdt+lr，binary_logloss:0.4783    
 
 #### 对Census数据中的收入做二分类
-1.Wide&Deep, accuracy: 0.8587
+0. Google TensorFlow Guide上的Wide&Deep基准模型准确率: 0.83。（从有的知乎博主分享的链接来看，已经打不开了）
+1. Wide&Deep, accuracy: 0.8587
